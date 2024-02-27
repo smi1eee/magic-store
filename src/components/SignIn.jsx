@@ -25,7 +25,6 @@ function SignIn() {
     
         if (username.length >= 4 && username.length <= 16 && /^[A-Za-z0-9]{4,16}$/.test(username)) {
             localStorage.setItem('username', username);
-            // Перенаправлення користувача на головну сторінку або куди потрібно після успішного входу
             navigate('/');
         } else {
             setError('Username must be 4-16 characters long and contain only Latin letters and numbers.');
