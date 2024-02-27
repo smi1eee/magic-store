@@ -7,7 +7,7 @@ export const BookProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
-    fetch('magic-store/public/books.json')
+    fetch('https://github.com/smi1eee/magic-store/blob/master/public/books.json')
       .then(response => response.json())
       .then(data => {
         setBooks(data.books);
