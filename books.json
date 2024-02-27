@@ -1,0 +1,195 @@
+{
+	"books": [
+	  {
+		"id": 1,
+		"author": "Aria Blackwood",
+		"price": 14.99,
+		"image": "/booksImg/1.jpg",
+		"title": "Whispers of the Arcane",
+		"amount": 42,
+		"shortDescription": "A young sorcerer discovers ancient secrets hidden within forbidden tomes, leading to a journey of self-discovery and perilous magic.",
+		"description": "As young Sorcerer Arden delves into the forbidden archives of his order, he uncovers whispers of an ancient prophecy that could change the fate of the world. With each page turned, he discovers more about his own lineage and the dark forces that seek to control the arcane energies."
+	  },
+	  {
+		"id": 2,
+		"author": "Morgan Evergreen",
+		"price": 17.99,
+		"image": "/booksImg/2.png",
+		"title": "Enchantment's Echo",
+		"amount": 42,
+		"shortDescription": "In a world where magic is fading, a gifted enchantress must rediscover the lost art to save her kingdom from darkness.",
+		"description": "In the realm of Eldoria, enchantment was once abundant, but now, its power wanes. Princess Elara embarks on a quest to restore the ancient spells and save her kingdom from the encroaching shadows. Alongside a band of unlikely allies, she journeys through forgotten lands, facing trials of magic and courage."
+	  },
+	  {
+		"id": 3,
+		"author": "Griffin Nightshade",
+		"price": 21.50,
+		"image": "",
+		"title": "Spellbound Secrets",
+		"amount": 42,
+		"shortDescription": "An eccentric professor's journal unveils a world of hidden spells and mystical creatures, leading a group of young apprentices into a realm of adventure.",
+		"description": "When a dusty tome filled with cryptic symbols and arcane diagrams falls into the hands of a group of misfit apprentices, they unlock a portal to a realm where magic reigns supreme. Guided by the enigmatic journal of Professor Magnus, they navigate through enchanted forests, evade the clutches of dark sorcerers, and uncover the truth about their own destinies."
+	  },
+	  {
+		"id": 4,
+		"author": "Luna Silvermoon",
+		"price": 12.80,
+		"image": "/booksImg/4.png",
+		"title": "Witching Hour Chronicles",
+		"amount": 42,
+		"shortDescription": "In a city where magic is outlawed, a coven of witches must harness their powers in secret to resist tyranny and restore balance.",
+		"description": "In the shadows of a city gripped by fear, a coven of witches gathers under the cover of night to practice their craft. As the oppressive regime tightens its grip, they must band together to protect their ancient traditions and preserve the delicate balance between light and darkness."
+	  },
+	  {
+		"id": 5,
+		"author": "Orion Stardust",
+		"price": 31.30,
+		"image": "/booksImg/5.png",
+		"title": "Arcane Alchemy: Unveiling the Mysteries",
+		"amount": 42,
+		"shortDescription": "A master alchemist shares the secrets of transmutation and elemental magic, guiding aspiring sorcerers on a journey of discovery.",
+		"description": "From the laboratories of the Arcane Academy to the depths of forgotten catacombs, Master Alchemist Alistair unveils the secrets of arcane alchemy. With detailed instructions and ancient rituals, he guides aspiring sorcerers through the intricate process of transmutation, teaching them to harness the elements and wield the forces of nature."
+	  },
+	  {
+		"id": 6,
+		"author": "Isabella Nightingale",
+		"price": 11.30,
+		"image": "/booksImg/6.png",
+		"title": "The Sorcerer's Legacy",
+		"amount": 42,
+		"shortDescription": "A young apprentice must unravel her master's mysterious past to uncover the truth behind an ancient prophecy and save the realm from darkness.",
+		"description": "When apprentice sorcerer Elara stumbles upon her master's hidden grimoire, she embarks on a quest to unravel the secrets of his past. With each spell cast and mystery solved, she inches closer to understanding her own destiny and the role she must play in fulfilling the prophecy that threatens to tear the realm asunder."
+	  },
+	  {
+		"id": 7,
+		"author": "Gabriel Frost",
+		"price": 27.50,
+		"image": "/booksImg/7.png",
+		"title": "Mystic Realms: Chronicles of the Elemental Guardians",
+		"amount": 42,
+		"shortDescription": "Four unlikely heroes must master the elements and unite to defeat an ancient evil threatening to consume their world.",
+		"description": "In the land of Aetheria, where the elements reign supreme, four young heroes discover they are the chosen guardians destined to protect their realm from the dark forces of the Shadowlands. With the guidance of elemental mentors, they embark on a perilous journey to master their powers and unlock the secrets of the Mystic Realms."
+	  },
+	  {
+		"id": 8,
+		"author": "Aurora Dawn",
+		"price": 14.99,
+		"image": "/booksImg/8.png",
+		"title": "Spellcaster's Symphony",
+		"amount": 42,
+		"shortDescription": "A talented musician discovers her magical heritage and must harness her newfound powers to stop a malevolent force from destroying her homeland.",
+		"description": "When aspiring musician Celeste inherits her grandmother's enchanted violin, she unlocks a world of magic and mystery. With the help of a quirky ensemble of magical creatures, she must master the melodies of the Spellcaster's Symphony to thwart the plans of an ancient sorcerer bent on unleashing chaos upon the world."
+	  },
+	  {
+		"id": 9,
+		"author": "Rowan Nightshade",
+		"price": 24.99,
+		"image": "/booksImg/9.png",
+		"title": "The Enchanted Grimoire",
+		"amount": 42,
+		"shortDescription": "A rare grimoire holds the key to unlocking untold power, but those who seek its secrets must first overcome its deadly guardians.",
+		"description": "Legends speak of a lost grimoire containing spells of unimaginable power, guarded by ancient spirits and arcane traps. When a group of adventurers embarks on a quest to find the Enchanted Grimoire, they must face trials of wit and courage as they navigate through treacherous dungeons and deadly puzzles."
+	  },
+	  {
+		"id": 10,
+		"author": "Ember Moonshadow",
+		"price": 15.50,
+		"image": "/booksImg/10.png",
+		"title": "Shadow of the Witchwood",
+		"amount": 42,
+		"shortDescription": "A young witch must confront the darkness within her own heart to save her village from the sinister forces lurking in the depths of the Witchwood.",
+		"description": "When the shadows of the Witchwood begin to stir, young witch Elara must confront the darkness within herself to unlock the secrets of her family's legacy. With the help of a mysterious druid and a band of unlikely allies, she embarks on a perilous journey to banish the malevolent spirits that threaten to consume her village."
+	  },
+	  {
+		"id": 11,
+		"author": "Orion Blackwell",
+		"price": 9.99,
+		"image": "/booksImg/11.png",
+		"title": "Arcane Artifacts: A Collector's Guide",
+		"amount": 42,
+		"shortDescription": "A renowned collector shares the stories behind the world's most coveted magical artifacts, from ancient relics to powerful talismans.",
+		"description": "From the halls of forgotten temples to the bustling markets of distant lands, renowned collector Professor Alden Blackwell unveils the secrets behind the world's most coveted magical artifacts. With detailed illustrations and fascinating anecdotes, he shares the stories of ancient relics, powerful talismans, and cursed objects that have shaped the course of history."
+	  },
+	  {
+		"id": 12,
+		"author": "Asher Firebrand",
+		"price": 28.50,
+		"image": "/booksImg/12.png",
+		"title": "The Mage's Gambit",
+		"amount": 42,
+		"shortDescription": "A master strategist must outwit his rivals and navigate a world of political intrigue to claim the ultimate prize: the throne of the High Mage.",
+		"description": "In the magical realm of Arkania, where power is won through cunning and deception, young mage Lucius embarks on a perilous game of cat and mouse to seize control of the High Mage's council. With alliances forged and betrayals lurking at every turn, he must navigate a treacherous path to claim his rightful place as ruler of the arcane domain."
+	  },
+	  {
+		"id": 13,
+		"author": "Crystal Stormborn",
+		"price": 13.50,
+		"image": "/booksImg/13.png",
+		"title": "Chronicles of the Crystal Keepers",
+		"amount": 42,
+		"shortDescription": "Three unlikely heroes must journey to the heart of a crystalline labyrinth to unlock the secrets of an ancient prophecy and save their world from destruction.",
+		"description": "In the kingdom of Crystalia, where magic flows from the heart of the earth, three unlikely heroes embark on a quest to awaken the dormant powers of the Crystal Keepers. With each step closer to the heart of the labyrinth, they uncover the truth about their own destinies and the role they must play in fulfilling the prophecy that will determine the fate of their world."
+	  },
+	  {
+		"id": 14,
+		"author": "Raven Darkwood",
+		"price": 36.99,
+		"image": "/booksImg/14.png",
+		"title": "Sorcery's Shadow",
+		"amount": 42,
+		"shortDescription": "A young sorceress must confront her own dark past and embrace her true power to stop a vengeful spirit from unleashing chaos upon the realm.",
+		"description": "When ancient spirits awaken from their slumber, young sorceress Lyra must confront the shadows of her past to unlock the secrets of her true lineage. With the help of a mysterious warrior and a band of loyal companions, she embarks on a perilous journey to banish the vengeful spirit and restore balance to the realm."
+	  },
+	  {
+		"id": 15,
+		"author": "Merlin Moonlight",
+		"price": 33.50,
+		"image": "/booksImg/15.png",
+		"title": "The Wizard's Labyrinth",
+		"amount": 42,
+		"shortDescription": "A novice wizard must navigate a labyrinth of illusions and deadly traps to prove himself worthy of mastering the arcane arts.",
+		"description": "In the heart of the enchanted forest lies the Wizard's Labyrinth, a treacherous maze of illusions and deadly traps designed to test the mettle of aspiring wizards. When young apprentice Arthur ventures into the labyrinth in search of ancient knowledge, he must rely on his wit and courage to overcome the challenges that lie ahead and prove himself worthy of mastering the arcane arts."
+	  },
+	  {
+		"id": 16,
+		"author": "Selene Starfall",
+		"price": 39.99,
+		"image": "/booksImg/16.png",
+		"title": "Tales of the Magi",
+		"amount": 42,
+		"shortDescription": "A collection of ancient legends and forgotten myths reveals the untold history of the Magi, the guardians of magic throughout the ages.",
+		"description": "From the sands of ancient Egypt to the misty forests of medieval Europe, 'Tales of the Magi' chronicles the untold history of the guardians of magic throughout the ages. With each legend and myth, readers uncover the secrets of the Magi's origins, their sacred rituals, and the timeless battles they fought to protect the balance of the arcane realm."
+	  },
+	  {
+		"id": 17,
+		"author": "Phoenix Firestone",
+		"price": 17.30,
+		"image": "/booksImg/17.png",
+		"title": "The Alchemist's Apprentice",
+		"amount": 42,
+		"shortDescription": "A young alchemist's apprentice embarks on a quest for immortality, but soon discovers that some secrets are better left buried.",
+		"description": "When young apprentice Alaric discovers a hidden manuscript detailing the secrets of immortality, he embarks on a perilous journey to unlock the mysteries of alchemy. But as he delves deeper into the forbidden arts, he soon realizes that some secrets are better left buried, and that the pursuit of eternal life comes at a price too steep to pay."
+	  },
+	  {
+		"id": 18,
+		"author": "Willow Whitewood",
+		"price": 14.99,
+		"image": "/booksImg/18.png",
+		"title": "Wands and Wonders: A Beginner's Guide to Wandcraft",
+		"amount": 42,
+		"shortDescription": "A comprehensive guide to crafting and wielding magical wands, from selecting the perfect wood to mastering complex spells.",
+		"description": "From the ancient forests of Avalon to the bustling markets of Diagon Alley, 'Wands and Wonders' offers aspiring wandcrafters a comprehensive guide to mastering the arcane art of wandmaking. With detailed instructions and step-by-step illustrations, readers learn how to select the perfect wood, carve intricate designs, and imbue their wands with powerful spells and enchantments."
+	  },
+	  {
+		"id": 19,
+		"author": "Luna Evergreen",
+		"price": 36.50,
+		"image": "/booksImg/19.png",
+		"title": "Echoes of Enchantment",
+		"amount": 42,
+		"shortDescription": "A mysterious melody leads a young bard on a journey through enchanted realms, where music holds the key to unlocking ancient magic.",
+		"description": "When young bard Lyric discovers a haunting melody echoing through the windswept cliffs of her homeland, she embarks on a journey to uncover its origins. From the glittering halls of Elven kingdoms to the shadowy depths of ancient ruins, she follows the trail of music, unraveling secrets of forgotten magic long lost to the ages."
+	  }
+	]
+  }
+  
