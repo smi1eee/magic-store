@@ -1,0 +1,93 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(./background.png);
+    background-attachment: fixed;
+    }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.magic__font {
+    font-family: 'Beautiful Magic';
+  }
+  
+.si-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.si-card {
+    display: flex;
+    background: rgba(59, 36, 129, 0);
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: center;
+    border: none;
+}
+
+.si-label {
+    color: white;
+    text-shadow: -1px -1px 0 darkblue, 1px -1px 0 darkblue, -1px 1px 0 darkblue, 1px 1px 0 darkblue;
+}
+
+.si-input {
+    width: 200px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background-color: #E5E1FF;
+    border-color: #2E2751;
+}
+
+.si-avatar-img {
+    width: 160px;
+    height: 160px;
+}
+
+.si-btn {
+    color: #191042;
+    background-color: #FCAF88;
+    width: 200px;
+    letter-spacing: 2px;
+    border-radius: 55px;
+    margin: 25px;
+}
+
+.si-btn:disabled {
+    background-color: #cccccc; 
+    cursor: not-allowed; 
+}
+
+@media (max-width: 320px) {
+    .si-btn,
+    .si-input {
+        width: calc(100% - 16px);
+        margin: 8px 8px;
+    }
+
+    .si-avatar-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.si-error {
+    color: red;
+    
+}

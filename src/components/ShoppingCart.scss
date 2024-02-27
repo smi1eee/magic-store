@@ -1,0 +1,60 @@
+body {
+  color: bisque;
+  font-family: sans-serif;
+  background-image: url(./background.png);
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.magic__font {
+  font-family: 'Beautiful Magic';
+}
+
+.shopping-cart-list {
+  padding: 0;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.shopping-cart-item {
+  margin-bottom: 10px;
+}
+
+.btn-cart {
+  background-color: #FCAF88;
+  color: #191042;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-cart:hover {
+  background-color: #FF6F59;
+}
+
+.btn-cart:disabled {
+  background-color: #cccccc; 
+  cursor: not-allowed; 
+}
+
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  font-size: 12px;
+  color: bisque;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 30%;
+}

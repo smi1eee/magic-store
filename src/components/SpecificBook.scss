@@ -1,0 +1,106 @@
+/* Загальні стилі */
+body {
+    color: bisque;
+    font-family: sans-serif;
+    background-image: url(./background.png);
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилі для навігаційної панелі */
+#navbar {
+    margin-top: 20px;
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.35); /* Задає прозорий чорний колір фону з 50% прозорістю */
+}
+
+#navbar-brand {
+    color: bisque;
+    font-size: 42px;
+    font-family: 'Beautiful Magic';
+}
+
+/* Стилі для контейнера */
+#container-fluid {
+    padding: 0;
+}
+
+/* Стилі для кнопок */
+.magic__font {
+    font-family: 'Beautiful Magic';
+}
+
+#btn-primary {
+    letter-spacing: 1px;
+    border-radius: 55px;
+    color: #191042;
+    background-color: #FCAF88;
+}
+
+/* Стилі для зображення на картці */
+#card-img-top {
+    width: 350px;
+    max-width: 100%;
+    transition: 0.5s transform;
+}
+
+#card-img-top:hover {
+    transform: scale(1.15);
+}
+
+#count {
+    text-align: center;
+    border-radius: 55px;
+    width: 50px;
+}
+
+#col-12.col-md-3 {
+    border-color: bisque;
+    border-style: dashed;
+}
+
+/* Стилі для форми */
+#container-fluid-form__grid {
+    padding: 0; /* Забираємо відступи для контейнера форми */
+}
+
+.form__grid {
+    #row {
+        margin-right: 30px; /* Забираємо відступи для рядка */
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    #col-md-4,
+    #col-md-5,
+    #col-md-3 {
+        padding-right: 0; /* Забираємо відступи для колонок */
+        padding-left: 0;
+    }
+}
+
+#col-12.col-md-3 {
+    #card-text {
+        padding: 16px 10px;
+    }
+
+    #label {
+        margin: 0;
+    }
+
+    #card-text p {
+        margin: 0;
+    }
+}
+
+#col-12.col-md-5 {
+    #card-text p {
+        margin: 10px 0;
+    }
+}
+
+p {
+    margin: 10px 10px;
+}

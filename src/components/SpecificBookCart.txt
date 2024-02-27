@@ -1,0 +1,46 @@
+import React, { useState } from 'react';
+
+function SpecificBookCart() {
+    const [count, setCount] = useState(0);
+    const unitPrice = 24.99;
+    const total = (count * unitPrice).toFixed(2);
+
+    const handleIncrease = () => {
+        setCount(prevCount => prevCount + 1);
+    };
+
+    const handleDecrease = () => {
+        if (count > 0) {
+            setCount(prevCount => prevCount - 1);
+        }
+    };
+
+    const handleInputChange = (event) => {
+        const inputValue = parseInt(event.target.value);
+        if (!isNaN(inputValue)) {
+            setCount(inputValue);
+        } else {
+            setCount(0);
+        }
+    };
+
+    const handleAddToCart = () => {
+        console.log(`Added ${count} books to cart. Total: $${total}`);
+    };
+
+    return (
+        <div>
+            <input
+                type="text"
+                value={count === 0 ? '' : count}
+                onChange={handleInputChange}
+            />
+            <button onClick={handleIncrease}>Increase</button>
+            <button onClick={handleDecrease}>Decrease</button>
+            <p>Total Price: ${total}</p>
+            <button onClick={handleAddToCart}>Add to Cart</button>
+        </div>
+    );
+}
+
+export default SpecificBookCart;

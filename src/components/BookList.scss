@@ -1,0 +1,140 @@
+$body-color: bisque;
+$font-family: sans-serif;
+$primary-color: #191042;
+$primary-bg-color: #FCAF88;
+$secondary-bg-color: rgba(0, 0, 0, 0.35);
+$border-color: bisque;
+$border-style: dashed;
+
+body {
+    color: $body-color;
+    font-family: $font-family;
+    background-image: url(./background.png);
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-top: 20px;
+    color: $body-color;
+    background-color: $secondary-bg-color;
+}
+
+.navbar-brand {
+    color: $body-color;
+    font-size: 42px;
+    font-family: 'Beautiful Magic';
+}
+
+.container-fluid {
+    padding: 0;
+}  
+
+.magic__font {
+    font-family: 'Beautiful Magic';
+}
+
+.btn-primary {
+    letter-spacing: 1px;
+    border-radius: 55px;
+    color: $primary-color;
+    background-color: $primary-bg-color;
+}
+
+.card {
+    background-color: inherit;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    transition: 0.5s transform;
+    width: 250px;
+
+    .card-img-top {
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px; 
+    }
+
+    &:hover {
+        transform: scale(1.15);
+    }
+
+    .card-body {
+        padding: 10px 20px;
+    }
+
+    .book-author {
+        margin-left: 0;
+    }
+
+    p.book-price {
+        margin: 0;
+    }
+}
+
+.col-12.col-md-3 {
+    border-color: $border-color;
+    border-style: $border-style;
+}
+
+.container-fluid.form__grid {
+    padding: 0;
+}
+
+.form__grid .row {
+    margin: 30px;
+}
+
+.form__grid .col-md-4,
+.form__grid .col-md-5,
+.form__grid .col-md-3 {
+    padding: 0;
+}
+
+.col-12.col-md-3 .card-text {
+    padding: 16px 10px;
+}
+
+label {
+    margin: 0;
+}
+
+.col-12.col-md-3 .card-text p {
+    margin: 0;
+}
+
+.col-12.col-md-5 .card-text p {
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px;
+}
+
+.username {
+    margin: 0;
+}
+
+.input-container input[type="text"],
+.input-container select {
+    padding: 8px;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    width: auto;
+    font-size: 16px;
+    color: $body-color; // Використовуємо змінну $body-color для коліру тексту
+    background-color: $secondary-bg-color; // Використовуємо змінну $secondary-bg-color для фону
+    transition: border-color 0.3s ease; // Анімація зміни коліру рамки при фокусуванні
+    margin: 10px;
+}
+
+.input-container select {
+    width: auto;
+}
+
+.input-container input[type="text"]:focus,
+.input-container select:focus {
+    outline: none; // Знімаємо зазначення при фокусуванні
+    border-color: $primary-color; // Змінюємо колір рамки при фокусуванні
+}
