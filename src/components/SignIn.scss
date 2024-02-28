@@ -10,6 +10,7 @@ body {
     background-image: url(./background.png);
     background-attachment: fixed;
     background-size: 100% 100%;
+    color: bisque;
     }
 
 body {
@@ -68,6 +69,10 @@ body {
     letter-spacing: 2px;
     border-radius: 55px;
     margin: 25px;
+}
+
+.si-btn:hover {
+    background-color: #FF6F59;
 }
 
 .si-btn:disabled {

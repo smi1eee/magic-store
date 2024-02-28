@@ -6,8 +6,6 @@ $secondary-bg-color: rgba(0, 0, 0, 0.35);
 $border-color: bisque;
 $border-style: dashed;
 
-
-
 .navbar {
     margin-top: 20px;
     color: $body-color;
@@ -33,6 +31,10 @@ $border-style: dashed;
     border-radius: 55px;
     color: $primary-color;
     background-color: $primary-bg-color;
+}
+
+.btn-primary:hover {
+    background-color: #FF6F59;
 }
 
 .card {
@@ -115,9 +117,9 @@ p {
     border-radius: 4px;
     width: auto;
     font-size: 16px;
-    color: $body-color; // Використовуємо змінну $body-color для коліру тексту
-    background-color: $secondary-bg-color; // Використовуємо змінну $secondary-bg-color для фону
-    transition: border-color 0.3s ease; // Анімація зміни коліру рамки при фокусуванні
+    color: $body-color;
+    background-color: $secondary-bg-color;
+    transition: border-color 0.3s ease;
     margin: 10px;
 }
 
@@ -127,8 +129,8 @@ p {
 
 .input-container input[type="text"]:focus,
 .input-container select:focus {
-    outline: none; // Знімаємо зазначення при фокусуванні
-    border-color: $primary-color; // Змінюємо колір рамки при фокусуванні
+    outline: none;
+    border-color: $primary-color;
 }
 
 

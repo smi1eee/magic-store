@@ -1,19 +1,8 @@
-/* Загальні стилі */
-body {
-    color: bisque;
-    font-family: sans-serif;
-    background-image: url(./background.png);
-    background-attachment: fixed;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
 
-/* Стилі для навігаційної панелі */
 #navbar {
     margin-top: 20px;
     color: bisque;
-    background-color: rgba(0, 0, 0, 0.35); /* Задає прозорий чорний колір фону з 50% прозорістю */
+    background-color: rgba(0, 0, 0, 0.35); 
 }
 
 #navbar-brand {
@@ -22,12 +11,12 @@ body {
     font-family: 'Beautiful Magic';
 }
 
-/* Стилі для контейнера */
+
 #container-fluid {
     padding: 0;
 }
 
-/* Стилі для кнопок */
+
 .magic__font {
     font-family: 'Beautiful Magic';
 }
@@ -37,9 +26,14 @@ body {
     border-radius: 55px;
     color: #191042;
     background-color: #FCAF88;
+    border: none;
 }
 
-/* Стилі для зображення на картці */
+#btn-primary:hover {
+    background-color: #FF6F59;
+  }
+
+
 #card-img-top {
     width: 350px;
     max-width: 100%;
@@ -61,14 +55,14 @@ body {
     border-style: dashed;
 }
 
-/* Стилі для форми */
+
 #container-fluid-form__grid {
-    padding: 0; /* Забираємо відступи для контейнера форми */
+    padding: 0;
 }
 
 .form__grid {
     #row {
-        margin-right: 30px; /* Забираємо відступи для рядка */
+        margin-right: 30px;
         margin-left: 30px;
         margin-top: 30px;
     }
