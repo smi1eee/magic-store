@@ -59,7 +59,7 @@ const SpecificBook = () => {
           <section className="container-fluid form__grid">
             <div id="row" className="row align-items-start flex-column flex-md-row ">
               <figure id="col-12" className="col-12 text-center col-md-4">
-                <img id="card-img-top" className="card-img-top" src={book.image || 'magic-store/booksImg/imgNotFound.avif'} alt={book.title} />
+                <img id="card-img-top" className="card-img-top" src={book.image || 'https://github.com/smi1eee/magic-store/blob/master/public/booksImg/imgNotFound.avif'} alt={book.title} />
               </figure>
               <div id="col-12" className="col-12 col-md-5">
                 <div className="card-body text-left">

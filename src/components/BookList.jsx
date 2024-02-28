@@ -57,7 +57,7 @@ function BookList() {
                             <div key={book.id} className="col-md-2 mb-5 ml-5 mr-5">
                                 <div className="card mx-auto">
                                     <Link to={`/book/${book.id}`} state={{ book }}>
-                                        <img src={book.image || 'magic-store/booksImg/imgNotFound.avif'} className="card-img-top" alt={book.title} />
+                                        <img src={book.image || 'https://github.com/smi1eee/magic-store/blob/master/public/booksImg/imgNotFound.avif'} className="card-img-top" alt={book.title} />
                                     </Link>
                                     <div className="card-body text-left">
                                         <h5 className="book-title">{cutTitle(book.title)}</h5>
