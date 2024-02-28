@@ -32,8 +32,10 @@ function App() {
             <Route path="/main" element={<BookList />} />          
             <Route path="/book/:id" element={<SpecificBook />} />
             <Route path="/cart" element={<ShoppingCart />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Route>          
+            
+          </Route>
+          <Route path="/not-found" element={<NotFoundPage />} />
+          <Route path="*" element={<Navigate to="/not-found" />} />          
         </Routes>
         <Footer />
       </BookProvider>
