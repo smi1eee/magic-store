@@ -4,7 +4,7 @@
 		"id": 1,
 		"author": "Aria Blackwood",
 		"price": 14.99,
-		"image": "booksImg/1.jpg",
+		"image": "./booksImg/1.jpg",
 		"title": "Whispers of the Arcane",
 		"amount": 42,
 		"shortDescription": "A young sorcerer discovers ancient secrets hidden within forbidden tomes, leading to a journey of self-discovery and perilous magic.",
