@@ -59,7 +59,7 @@ function Header({ setUsername }) {
                             {itemCount > 0 && <span className="badge badge-pill badge-primary cart-badge">{itemCount}</span>}
                         </div>
                     </Link>
-                    <Link to="/sign" onClick={handleSignOut} className="btn btn-primary magic__font">Sign-out</Link>
+                    <Link to="/" onClick={handleSignOut} className="btn btn-primary magic__font">Sign-out</Link>
                     <img src={Avatar} alt="Avatar" className="rounded-circle ml-2" width="50" height="50" />
                     <p className="username ml-2 mb-0 ">{username}</p>
                 </div>
