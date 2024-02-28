@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate, Outlet } from 'react-router-dom'; 
+import { BrowserRouter, Route, Routes, Navigate, Outlet } from 'react-router-dom'; 
 import SignIn from './components/SignIn';
 import BookList from './components/BookList';
 import SpecificBook from './components/SpecificBook';
@@ -23,7 +23,7 @@ function App() {
   
   
   return (
-    <Router basename="/magic-store">
+    <BrowserRouter basename="/magic-store">
       <BookProvider>
         <Header /> 
         <Routes>
@@ -39,7 +39,7 @@ function App() {
         </Routes>
         <Footer />
       </BookProvider>
-    </Router>
+    </BrowserRouter>
   );
 }
 
