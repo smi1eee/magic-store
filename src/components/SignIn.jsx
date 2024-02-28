@@ -26,7 +26,7 @@ function SignIn() {
     
         if (username.length >= 4 && username.length <= 16 && /^[A-Za-z0-9]{4,16}$/.test(username)) {
             localStorage.setItem('username', username);
-            navigate('/');
+            navigate('/main');
         } else {
             setError('Username must be 4-16 characters long and contain only Latin letters and numbers.');
         }
@@ -59,7 +59,7 @@ function SignIn() {
                             />
                             
                         </div>
-                        <Link to="/">
+                        <Link to="/main">
                             <button className="si-btn magic__font" type="submit" disabled={username.length < 4 || username.length > 16} onClick={handleSubmit}>Sign-in</button>
                         </Link>
                         {error && <p className="si-error">{error}</p>}

@@ -9,7 +9,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import { BookProvider } from './BookContext';
 
-const ProtectedRoute = ({ redirectPath = '/sign' }) => {
+const ProtectedRoute = ({ redirectPath = '/' }) => {
   const username = localStorage.getItem('username');
   if (!username) {
     return <Navigate to={redirectPath} replace />;
@@ -27,9 +27,9 @@ function App() {
       <BookProvider>
         <Header /> 
         <Routes>
-          <Route path="/sign" element={<SignIn />} />
+          <Route path="/" element={<SignIn />} />
           <Route element={<ProtectedRoute />}>
-            <Route path="" element={<BookList />} />          
+            <Route path="/main" element={<BookList />} />          
             <Route path="/book/:id" element={<SpecificBook />} />
             <Route path="/cart" element={<ShoppingCart />} />
             <Route path="*" element={<NotFoundPage />} />

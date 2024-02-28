@@ -32,7 +32,7 @@ function Header({ setUsername }) {
         };
     }, []);
 
-    if (location.pathname === '/sign') {
+    if (location.pathname === '/') {
         return (
             <header className="navbar navbar-expand-lg">
                 <div className="container-fluid">
