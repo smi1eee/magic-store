@@ -54,7 +54,7 @@ function BookList() {
                 <section className="container-fluid form__grid">
                     <div className="row align-items-start justify-content-center" id="bookListContainer">
                         {filteredBooks.map(book => (
-                            <div key={book.id} className="col-md-3 col-sm-4 col-xs-6 mb-5">
+                            <div key={book.id} className="col-md-4 col-sm-5 col-xs-6 mb-5">
                                 <div className="card mx-auto">
                                     <Link to={`/book/${book.id}`} state={{ book }}>
                                         <img src={book.image || 'https://raw.githubusercontent.com/smi1eee/magic-store/master/public/booksImg/imgNotFound.avif'} className="card-img-top" alt={book.title} />
