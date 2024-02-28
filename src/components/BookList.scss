@@ -138,3 +138,14 @@ p {
     outline: none; // Знімаємо зазначення при фокусуванні
     border-color: $primary-color; // Змінюємо колір рамки при фокусуванні
 }
+
+@media (max-width: 768px) {
+    .col-md-2 {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  
+  
