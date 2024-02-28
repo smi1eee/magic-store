@@ -40,7 +40,7 @@ $border-style: dashed;
     border: 1px solid $border-color;
     border-radius: 10px;
     transition: 0.5s transform;
-    width: 250px;
+    width: 200px;
 
     .card-img-top {
         margin: 0 auto;
@@ -131,12 +131,7 @@ p {
     border-color: $primary-color; // Змінюємо колір рамки при фокусуванні
 }
 
-@media (max-width: 768px) {
-    .col-md-2 {
-      width: 50%;
-      margin-bottom: 20px;
-    }
-  }
+
   
   
   
