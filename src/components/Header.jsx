@@ -37,7 +37,7 @@ function Header({ setUsername }) {
             <header className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <div className="d-flex align-items-center">
-                    <Link className="navbar-brand mr-2" to="/">STORE of MAGIC</Link>
+                    <Link className="navbar-brand mr-2" to="/main">STORE of MAGIC</Link>
                         <div className="navbar-text">| Oleksandr Tkachenko</div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ function Header({ setUsername }) {
         <header className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <div className="d-flex align-items-center">
-                    <Link className="navbar-brand mr-2" to="/">STORE of MAGIC</Link>
+                    <Link className="navbar-brand mr-2" to="/main">STORE of MAGIC</Link>
                     <div className="navbar-text">| Oleksandr Tkachenko</div>
                 </div>
                 <div className="ml-auto d-flex align-items-center">
