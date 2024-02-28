@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import { Link, useNavigate } from 'react-router-dom';
 
 import avatar from './avatar.png';
+import bookstoreIcon from './bookstore-icon.png';
 
 function SignIn() {
     const [username, setUsername] = useState('');
@@ -35,7 +36,8 @@ function SignIn() {
     return (
         <div>
             <Helmet>
-                <title>Book Shop | authorization</title>
+                <title>Book Shop</title>
+                <link rel="icon" href={bookstoreIcon} />
             </Helmet>
 
             <main className="si-main-container text-center mx-auto">
