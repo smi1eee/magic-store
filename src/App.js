@@ -7,7 +7,7 @@ import ShoppingCart from './components/ShoppingCart';
 import NotFoundPage from './components/NotFoundPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { BookProvider } from './components/BookContext';
+import { BookProvider } from './BookContext';
 
 const ProtectedRoute = ({ redirectPath = '/sign' }) => {
   const username = localStorage.getItem('username');
@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/sign" element={<SignIn />} />
           <Route element={<ProtectedRoute />}>
-            <Route path="/" element={<BookList />} />          
+            <Route path="" element={<BookList />} />          
             <Route path="/book/:id" element={<SpecificBook />} />
             <Route path="/cart" element={<ShoppingCart />} />
             <Route path="*" element={<NotFoundPage />} />

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import './BookList.scss';
 import { Link } from 'react-router-dom';
-import { BookContext } from './BookContext';
+import { BookContext } from '../BookContext';
 
 function BookList() {
     const { books } = useContext(BookContext);

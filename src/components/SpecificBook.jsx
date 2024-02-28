@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import './SpecificBook.scss';
 import { useParams } from 'react-router-dom';
-import { BookContext } from './BookContext'; // Імпорт контексту
+import { BookContext } from '../BookContext'; // Імпорт контексту
 
 const SpecificBook = () => {
   const { id } = useParams();

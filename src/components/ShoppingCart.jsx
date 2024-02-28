@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './ShoppingCart.scss';
-import { BookContext } from './BookContext';
+import { BookContext } from '../BookContext';
 
 const ShoppingCart = () => {
   const { cartItems, removeFromCart, purchaseCart } = useContext(BookContext);
