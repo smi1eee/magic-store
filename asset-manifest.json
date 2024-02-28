@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/magic-store/static/css/main.7ed28b33.css",
-    "main.js": "/magic-store/static/js/main.e39bd493.js",
+    "main.js": "/magic-store/static/js/main.915b12b3.js",
     "static/js/453.b148d4bb.chunk.js": "/magic-store/static/js/453.b148d4bb.chunk.js",
     "static/media/background.png": "/magic-store/static/media/background.31800c0a02e1ee6753d4.png",
     "static/media/avatar.png": "/magic-store/static/media/avatar.fc514529d4e1b8cbb29b.png",
     "static/media/cart.svg": "/magic-store/static/media/cart.5a1c3c755c07e59db7d65be6bc8d8bfb.svg",
     "index.html": "/magic-store/index.html",
     "main.7ed28b33.css.map": "/magic-store/static/css/main.7ed28b33.css.map",
-    "main.e39bd493.js.map": "/magic-store/static/js/main.e39bd493.js.map",
+    "main.915b12b3.js.map": "/magic-store/static/js/main.915b12b3.js.map",
     "453.b148d4bb.chunk.js.map": "/magic-store/static/js/453.b148d4bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ed28b33.css",
-    "static/js/main.e39bd493.js"
+    "static/js/main.915b12b3.js"
   ]
 }
