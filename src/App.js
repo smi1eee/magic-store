@@ -23,7 +23,7 @@ function App() {
   
   
   return (
-    <HashRouter basename={process.env.PUBLIC_URL} hashType="hashbang">
+    <HashRouter basename={process.env.PUBLIC_URL} hashType="noslash">
       <BookProvider>
         <Header /> 
         <Routes>
