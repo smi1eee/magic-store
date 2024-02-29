@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import SpecificBook from '../components/SpecificBook';
-import { BookContext } from '../components/BookContext';
+import { BookContext } from '../BookContext';
 
 const mockBook = {
   id: '1',
