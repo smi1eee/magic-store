@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes, Navigate, Outlet } from 'react-router-dom'; 
+import { HashRouter, Route, Routes, Navigate, Outlet } from 'react-router-dom'; 
 import SignIn from './components/SignIn';
 import BookList from './components/BookList';
 import SpecificBook from './components/SpecificBook';
@@ -23,7 +23,7 @@ function App() {
   
   
   return (
-    <BrowserRouter basename="/magic-store">
+    <HashRouter basename={process.env.PUBLIC_URL} hashType="slash">
       <BookProvider>
         <Header /> 
         <Routes>
@@ -39,7 +39,7 @@ function App() {
         </Routes>
         <Footer />
       </BookProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
