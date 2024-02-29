@@ -86,7 +86,7 @@ const SpecificBook = () => {
                     Price, $
                   </p>
                   <p>
-                    {book.price}
+                    {parseFloat(book.price).toFixed(2)}
                   </p>
                 </div>
                 <div className="card-text d-flex justify-content-between align-items-center">

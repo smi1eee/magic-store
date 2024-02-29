@@ -63,7 +63,7 @@ function BookList() {
                                         <h5 className="book-title">{cutTitle(book.title)}</h5>
                                         <p className="book-author">{book.author}</p>
                                         <div className="d-flex justify-content-between align-items-center w-100">
-                                            <p className="book-price mb-0">{book.price}</p>
+                                            <p className="book-price mb-0">{parseFloat(book.price).toFixed(2)}</p>
                                             <Link to={`/book/${book.id}`} state={{ book }} className="btn btn-primary">View</Link>
                                         </div>
                                     </div>

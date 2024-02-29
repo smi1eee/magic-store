@@ -19,7 +19,7 @@ const ShoppingCart = () => {
             <p>Total price: ${cartItems.reduce((total, book) => total + book.totalPrice, 0).toFixed(2)}</p>
             <ol className="shopping-cart-list">
               {cartItems.map((book, index) => (
-                <li key={index} className="shopping-cart-item card-text d-flex justify-content-between">
+                <li key={index} className="shopping-cart-item card-text d-flex justify-content-between align-items-center">
                   {book.title} 
                   <span className="item-details">
                     {book.count} pc. ${(book.price * book.count).toFixed(2)}
